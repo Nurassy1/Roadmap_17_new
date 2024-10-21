@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(225, 243, 255);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header img{
+    width: 410px;
+    height: 266px;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 410px 410px 410px;
+    gap: 17px;
+}
+
+.box_1{
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box_2{
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box_3{
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1{
+    width: 350px;
+    font-weight: 300;
+}
+
+h6{
+    font-weight: 500;
+}
+
+.info p{
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 40px;
+    margin-left: 20px;
+}
+
+.info{
+    width: 340px;
+    display: grid;
+    grid-template-columns: 265px 30px;
+}
+
+.name{
+    margin-top: -15px;
+    margin-left: 4px;
+}
+
+.name p{
+    margin-top: -23px;
+}
+
+.date{
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 400px;
+}
+
+.middle{
+    width: 350px;
+    margin-left: 20px;
+}
+
+hr{
+    opacity: 0.6;
+    margin: 20px 0;
+}
